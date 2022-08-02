@@ -1,0 +1,280 @@
+:root {
+    --strong-cyan: rgb(38, 186, 164);
+    --light-blue: rgb(97, 115, 255);
+    --dark-grayish-blue: rgb(76, 84, 93);
+    --grayish-blue: rgb(158, 171, 179);
+    /* background-color: rgb(245, 246, 248) */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree',
+        sans-serif;
+    background-image: url(/images/bg-header-mobile.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: right top;
+
+
+
+
+}
+
+main {
+    width: 100vw;
+    padding: 0 1.9rem;
+    text-align: center;
+    font-size: 1.125rem;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.hero {
+    padding-top: 1.3rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.logo {
+    padding-top: 7.2rem;
+    width: 9rem;
+    height: auto;
+}
+
+.title-logo {
+    padding-top: 4.6rem;
+    font-size: 2.2rem;
+    color: rgba(76, 84, 93, .9);
+    font-weight: 800;
+    line-height: 2.9rem;
+
+}
+
+.gray-text {
+    color: rgba(158, 171, 179, .8);
+    padding-top: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.3rem;
+    justify-content: center;
+    gap: 1.8rem;
+    text-align: center;
+    outline-offset: 4px;
+    width: 100%;
+}
+
+
+
+
+
+
+.ios {
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    background: var(--strong-cyan);
+    color: rgba(255, 255, 255, .8);
+    padding: 1.1rem;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    border: 2.5px groove var(--strong-cyan);
+    border-top: none;
+    font-weight: 500;
+    box-shadow: rgb(38 186 164 / 15%) -1px 13px 9px;
+    transform: translateY(-6px);
+
+}
+
+.mac {
+    width: 100%;
+    cursor: pointer;
+    background-color: var(--light-blue);
+    color: rgba(255, 255, 255, .8);
+    padding: 1.1rem;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    border: 2.5px groove var(--light-blue);
+    border-top: none;
+    font-weight: 500;
+    box-shadow: rgb(97 115 255 / 15%) -1px 13px 9px;
+    transform: translateY(-6px);
+}
+
+.pushable1:active {
+    transform: translateY(-2px);
+}
+
+.pushable2:active {
+    transform: translateY(-2px);
+}
+
+.info .info-title {
+    padding-top: 10.7rem;
+    font-size: 2.1rem;
+    color: rgba(76, 84, 93, .9);
+}
+
+.info .gray-text {
+    padding-top: 1.1rem;
+    line-height: 1.8rem;
+    padding-bottom: 4.5rem;
+}
+
+#quick {
+    padding-top: 4rem;
+    font-size: 1.8rem;
+}
+
+#easily {
+    padding-top: .7rem;
+    padding-bottom: 0;
+}
+
+#icloud {
+    padding-top: 3.1rem;
+    font-size: 1.8rem;
+}
+
+#instantly {
+    padding-top: .7rem;
+    padding-bottom: 0;
+
+}
+
+#complete {
+    padding-top: 3.4rem;
+    font-size: 1.8rem;
+}
+
+#retrieve {
+    padding-top: .7rem;
+    padding-bottom: 0;
+
+}
+
+.bottom {
+    padding-top: 13.2rem;
+}
+
+.bottom-title {
+    font-size: 1.9rem;
+    color: rgba(76, 84, 93, .9);
+}
+
+#whether {
+    padding-bottom: 4.4rem;
+}
+
+.bottom img {
+    height: 15.4rem;
+    width: auto;
+}
+
+#supercharge {
+    font-size: 1.9rem;
+    color: rgba(76, 84, 93, .9);
+    padding-top: 6.8rem;
+
+}
+
+#productivity {
+    padding-top: 1rem;
+}
+
+.icons {
+    padding-top: 6.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.3rem;
+}
+
+.icons img {
+    height: 2.8rem;
+}
+
+.icons-title {
+    font-size: 1.6rem;
+    padding-top: 2.9rem;
+    color: rgba(76, 84, 93, .9);
+
+}
+
+p {
+    color: rgba(158, 171, 179, .8);
+
+}
+
+.icons p {
+    padding-top: 1.3rem;
+    line-height: 1.9rem;
+}
+
+.brands {
+    padding-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4.4rem;
+}
+
+.end {
+    padding-top: 12rem;
+    color: rgba(76, 84, 93, .9);
+}
+
+.end-title {
+    font-size: 1.9rem;
+}
+
+.end-text {
+    padding-top: 1rem;
+    line-height: 1.8rem;
+    padding-bottom: 3.4rem;
+
+}
+
+.end .mac{
+    margin-top: 1.6rem;
+    margin-bottom: 10rem;
+}
+
+.footer{
+    padding-top: 3.2rem;
+    background-color: rgb(245, 246, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    color:rgba(94, 102, 110, 0.9);
+    font-weight: 400;
+}
+
+.footer img{
+    height: 4rem;
+}
+
+.footer-icons{
+    padding: 3.3rem 7rem;
+    display: flex;
+    gap: 0;
+    background-color: rgb(245, 246, 248);
+}
