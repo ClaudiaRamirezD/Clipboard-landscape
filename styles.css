@@ -17,6 +17,7 @@ body {
         sans-serif;
     background-image: url(/images/bg-header-mobile.png);
     background-color: white;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: right top;
 
@@ -186,7 +187,6 @@ img {
 }
 
 .bottom img {
-    height: 15.4rem;
     width: auto;
 }
 
@@ -252,29 +252,314 @@ p {
 
 }
 
-.end .mac{
+.end .ios {
+    margin-top: 1.6rem;
+}
+
+.end .mac {
     margin-top: 1.6rem;
     margin-bottom: 10rem;
 }
 
-.footer{
+.end .buttons {
+    gap: 0;
+}
+
+
+
+
+.footer {
+    width: 100%;
     padding-top: 3.2rem;
     background-color: rgb(245, 246, 248);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    color:rgba(94, 102, 110, 0.9);
+    color: rgba(94, 102, 110, 0.9);
     font-weight: 400;
 }
 
-.footer img{
+.footer img {
     height: 4rem;
 }
 
-.footer-icons{
-    padding: 3.3rem 7rem;
+.footer-2 .footer-text {
+    padding-bottom: 2rem;
+    font-weight: 500;
+}
+
+.footer-2 {
+    text-align: center;
+
+}
+
+.footer-icons {
+    gap: 3rem;
+    padding-bottom: 3.2rem;
     display: flex;
-    gap: 0;
     background-color: rgb(245, 246, 248);
+}
+
+.footer-icons img {
+    height: 1.5rem;
+}
+
+@media(min-width:950px) {
+    body {
+        background-image: url(/images/bg-header-desktop.png);
+    }
+
+    .logo {
+        padding-top: 5.2rem;
+        width: 6rem;
+
+    }
+
+    .title-logo {
+        padding-top: 2.9rem;
+        font-size: 2.2rem;
+        color: rgb(76, 84, 93, );
+
+    }
+
+    .gray-text {
+        font-size: 1rem;
+        padding-top: .6rem;
+        width: 45%;
+
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        padding-top: 2.6rem;
+        width: 40%
+    }
+
+    .ios {
+
+        font-size: .9rem;
+        font-weight: 700;
+
+
+    }
+
+    .mac {
+
+        font-size: .9rem;
+        font-weight: 700;
+
+
+    }
+
+    .info .info-title {
+        padding-top: 9rem;
+        font-size: 1.8rem;
+        color: rgb(76, 84, 93);
+    }
+
+    .info .gray-text {
+
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1rem;
+        line-height: 1.4rem;
+        padding-bottom: 3rem;
+        font-size: .9rem;
+    }
+
+    .sidebyside {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .left {
+        flex-basis: 45%;
+        margin-left: -5%;
+    }
+
+    .right {
+        flex-basis: 30%;
+        margin-right: 20%;
+    }
+
+    .items {
+        text-align: start;
+    }
+
+    .items .gray-text {
+        margin: 0;
+        width: 100%;
+        padding-top: .6rem;
+    }
+
+    #quick {
+        font-size: 1.3rem;
+        padding-top: 2rem;
+    }
+
+    #icloud {
+        font-size: 1.3rem;
+        padding-top: 2.5rem;
+    }
+
+    #complete {
+        font-size: 1.3rem;
+        padding-top: 2.5rem;
+    }
+
+    .bottom-title {
+        font-size: 1.8rem;
+    }
+
+    .bottom .gray-text {
+        width: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .bottom img {
+        width: 65%;
+        height: auto;
+    }
+
+    #supercharge {
+        font-size: 1.8rem;
+        color: rgb(76, 84, 93);
+        padding-top: 3.7rem;
+    }
+
+    #productivity {
+        padding-top: .7rem;
+        font-size: .9rem;
+    }
+
+    .icons {
+        padding-top: 3.3rem;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .icons img {
+        height: 2.2rem;
+    }
+
+    .icons-title {
+        font-size: 1.2rem;
+        padding-top: 1.9rem;
+
+    }
+
+    .icons p {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: .8rem;
+        padding-top: .7rem;
+        line-height: 1.5rem;
+    }
+
+    .brands {
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        padding-top: 7rem;
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .brands img {
+        width: 6.5rem;
+    }
+
+    .end {
+        padding-top: 6.5rem;
+    }
+
+    .end-title {
+        font-size: 1.8rem;
+    }
+
+    .end-text {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        padding-top: .7rem;
+        line-height: 1.2rem;
+        padding-bottom: 0;
+        font-size: .9rem;
+    }
+
+    .end .buttons {
+        height: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        padding-top: 3.5rem;
+        padding-bottom: 9rem;
+        max-width: 40%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 1rem;
+    }
+
+    .end .mac {
+        margin-bottom: 0;
+    }
+
+    .desktop-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: row;
+
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .footer-1 {
+        flex-basis: 20%;
+        padding-left: 7rem;
+
+    }
+
+    .footer-2 {
+        flex-basis: 50%;
+        display: flex;
+        column-gap: 7rem;
+        padding-left: 3rem;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-top: 1rem;
+    }
+
+    .footer-2 .footer-text {
+        font-size: .9rem;
+        padding-bottom: 1rem
+    }
+
+    .footer-icons {
+        padding-right: 5rem;
+        padding-left: 5rem;
+        flex-basis: 30%;
+        gap: 0;
+        display: flex;
+        padding-bottom: 0;
+    }
+
+
+
 }
