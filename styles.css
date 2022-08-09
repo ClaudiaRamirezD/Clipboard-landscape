@@ -106,6 +106,10 @@ img {
 
 }
 
+.ios:hover{
+    background: rgb(93, 204, 187);
+}
+
 .mac {
     width: 100%;
     cursor: pointer;
@@ -119,6 +123,10 @@ img {
     font-weight: 500;
     box-shadow: rgb(97 115 255 / 15%) -1px 13px 9px;
     transform: translateY(-6px);
+}
+
+.mac:hover{
+    background-color: rgb(136, 150, 255);
 }
 
 .pushable1:active {
@@ -287,6 +295,11 @@ p {
 .footer-2 .footer-text {
     padding-bottom: 2rem;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.footer-text:hover{
+    color: var(--strong-cyan);
 }
 
 .footer-2 {
@@ -299,7 +312,13 @@ p {
     padding-bottom: 3.2rem;
     display: flex;
     background-color: rgb(245, 246, 248);
+    cursor: pointer;
 }
+
+.footer-icons img:hover {
+    filter: invert(63%) sepia(64%) saturate(468%) hue-rotate(122deg) brightness(85%) contrast(91%);
+}
+
 
 .footer-icons img {
     height: 1.5rem;
@@ -335,7 +354,7 @@ p {
         flex-direction: row;
         gap: 1rem;
         padding-top: 2.6rem;
-        width: 40%
+        width: 35%
     }
 
     .ios {
@@ -492,7 +511,7 @@ p {
     .end-text {
         margin-left: auto;
         margin-right: auto;
-        width: 60%;
+        width: 45%;
         padding-top: .7rem;
         line-height: 1.2rem;
         padding-bottom: 0;
